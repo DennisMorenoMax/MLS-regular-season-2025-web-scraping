@@ -2,13 +2,14 @@ library(httr)
 library(jsonlite)
 library(dplyr)
 library(readr)
+library(rvest)
 
 team_id <- "MLS-SEA-0001K9"
 stat_types <- c("general", "passing", "attacking", "defending")
 
 get_stats <- function(stat){
   url <- paste0(
-    "https://www.mlssoccer.com/api/stats/teams?season=",
+    "https://www.mlssoccer.com/stats/clubs/#season=",
     team_id,
     "&statType=",
     stat
