@@ -5,6 +5,7 @@ A web-scraping pipeline built to collect, and export data for the 2025 Major Lea
 📁 Repository Structure
 
 MLS-regular-season-2025-web-scraping/
+
 │
 
 ├── mls_season_2025_info.csv #Core season info (schedule, teams,match data, etc.)
