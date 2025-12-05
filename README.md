@@ -8,9 +8,9 @@ MLS-regular-season-2025-web-scraping/
 
 │
 
-├── mls_season_2025_info.csv #Core season info (schedule, teams,match data, etc.)
+├── mls_season_2025_info.csv #ID info (competition id and season id)
 
-├── mls_2025_team_stats.csv #Team-level statistics for the 2025 MLS season
+├── mls_2025_team_stats.csv #Team-level statistics for the 2025 MLS regular season
 
 ├── update-data.R  #Web scraping & data-processing script
 
@@ -22,9 +22,7 @@ This project scrapes authoritative MLS data sources to capture structured inform
 
 Team names & conference assignments
 
-Match dates, locations, and opponents
-
-Standings and team performance metrics
+Team performance metrics
 
 Additional season-level metadata
 
@@ -98,6 +96,7 @@ All contributions are welcome!
 🙌 Acknowledgments
 
 Data provided from publicly accessible MLS resources
+https://www.mlssoccer.com/stats/clubs/#season=MLS-SEA-0001K9&statType=general
 
 Built with R and the tidyverse ecosystem
 
