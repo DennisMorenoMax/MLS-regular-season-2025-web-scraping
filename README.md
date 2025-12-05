@@ -42,7 +42,7 @@ cd MLS-regular-season-2025-web-scraping
 
 Run the update script:
 
-Rscript update-data.R
+update-data.R
 
 
 Output files will be saved (or updated) in the project root:
