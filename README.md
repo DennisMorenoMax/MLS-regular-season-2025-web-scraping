@@ -6,10 +6,14 @@ A web-scraping pipeline built to collect, and export data for the 2025 Major Lea
 
 MLS-regular-season-2025-web-scraping/
 │
+
 ├── mls_season_2025_info.csv #Core season info (schedule, teams,match data, etc.)
-├── mls_2025_team_stats.csv  #Team-level statistics for the 2025 MLS season
-├── update-data.R  # Web scraping & data-processing script
-└── .github/workflows/            # Optional GitHub Actions automation
+
+├── mls_2025_team_stats.csv #Team-level statistics for the 2025 MLS season
+
+├── update-data.R  #Web scraping & data-processing script
+
+└── .github/workflows/  #Optional GitHub Actions automation
 
 📝 Overview
 
