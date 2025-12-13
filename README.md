@@ -2,7 +2,7 @@
 
 A web-scraping pipeline built to collect, and export data for the 2025 Major League Soccer (MLS) regular season. This repository provides downloadable datasets and automated scripts to keep MLS season information and team statistics up to date.
 
-📁 Repository Structure
+## 📁 Repository Structure
 
 MLS-regular-season-2025-web-scraping/
 
@@ -16,7 +16,7 @@ MLS-regular-season-2025-web-scraping/
 
 └── .github/workflows/  #Optional GitHub Actions automation
 
-📝 Overview
+## 📝 Overview
 
 This project scrapes authoritative MLS data sources to capture structured information about the 2025 regular season, including:
 
@@ -29,13 +29,13 @@ Additional season-level metadata
 The script consolidates the scraped information into two clean CSV files suitable for analytics, dashboards, machine-learning models, and sports-data research.
 
 
-🚀 How to Run
+## 🚀 How to Run
 
-Clone the repository:
+### Clone the repository:
 
-git clone https://github.com/DennisMorenoMax/MLS-regular-season-2025-web-scraping.git
+`git clone https://github.com/DennisMorenoMax/MLS-regular-season-2025-web-scraping.git`
 
-cd MLS-regular-season-2025-web-scraping
+`cd MLS-regular-season-2025-web-scraping`
 
 
 Run the update script:
@@ -49,7 +49,7 @@ mls_season_2025_info.csv
 
 mls_2025_team_stats.csv
 
-📌 Features
+## 📌 Features
 
 ✔ Automated web scraping of MLS 2025 season data
 
@@ -61,7 +61,7 @@ mls_2025_team_stats.csv
 
 ✔ Scripts designed for automation through GitHub Actions
 
-🧠 Use Cases
+## 🧠 Use Cases
 
 You can use this dataset for:
 
@@ -75,12 +75,12 @@ You can use this dataset for:
 
 ⚽ Historical data archiving for future comparisons
 
-🔄 Automation (Optional)
+## 🔄 Automation (Optional)
 
 If you use GitHub Actions, scraping can be scheduled to run automatically.
 The .github/workflows directory can contain cron-based automation—helpful for continuously updating the datasets without running the script manually.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Have ideas, improvements, or feature requests?
 
@@ -93,7 +93,7 @@ Or reach out directly
 All contributions are welcome!
 
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 
 Data provided from publicly accessible MLS resources
 https://www.mlssoccer.com/stats/clubs/#season=MLS-SEA-0001K9&statType=general
