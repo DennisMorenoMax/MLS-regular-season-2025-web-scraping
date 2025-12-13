@@ -38,12 +38,12 @@ The script consolidates the scraped information into two clean CSV files suitabl
 `cd MLS-regular-season-2025-web-scraping`
 
 
-Run the update script:
+### Run the update script:
 
 update-data.R
 
 
-Output files will be saved (or updated) in the project root:
+### Output files will be saved (or updated) in the project root:
 
 mls_season_2025_info.csv
 
@@ -95,7 +95,8 @@ All contributions are welcome!
 
 ## 🙌 Acknowledgments
 
-Data provided from publicly accessible MLS resources
+Data provided from publicly accessible MLS resources:
+
 https://www.mlssoccer.com/stats/clubs/#season=MLS-SEA-0001K9&statType=general
 
 Built with R and the tidyverse ecosystem
