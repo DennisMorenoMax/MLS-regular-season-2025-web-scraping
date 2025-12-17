@@ -33,9 +33,9 @@ The script consolidates the scraped information into two clean CSV files suitabl
 
 ### Clone the repository:
 
-`git clone https://github.com/DennisMorenoMax/MLS-regular-season-2025-web-scraping.git`
+"""git clone https://github.com/DennisMorenoMax/MLS-regular-season-2025-web-scraping.git"""
 
-`cd MLS-regular-season-2025-web-scraping`
+"""cd MLS-regular-season-2025-web-scraping"""
 
 
 ### Run the update script:
