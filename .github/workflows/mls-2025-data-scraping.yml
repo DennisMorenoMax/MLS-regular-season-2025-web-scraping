@@ -42,7 +42,7 @@ jobs:
       
       # Runs the R code for data update
       - name: Import data
-        run: Rscript -e 'source("update-data.R")'
+        run: Rscript -e 'source("update-teams-data.R")'
 
       # Runs a set of commands using the runners shell
       - name: Commit MLS results
