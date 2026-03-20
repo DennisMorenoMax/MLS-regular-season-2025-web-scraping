@@ -55,15 +55,15 @@ mls_2025_team_stats.csv
 
 ## Features
 
-✔ Automated web scraping of MLS 2025 season data
+Automated web scraping of MLS 2025 season data
 
-✔ Clean and standardized CSV outputs
+Clean and standardized CSV outputs
 
-✔ Ready for analytics, visualization, and modeling
+Ready for analytics, visualization, and modeling
 
-✔ Easy to extend to future seasons
+Easy to extend to future seasons
 
-✔ Scripts designed for automation through GitHub Actions
+Scripts designed for automation through GitHub Actions
 
 ## Use Cases
 
